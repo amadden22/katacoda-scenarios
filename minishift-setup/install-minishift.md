@@ -1,1 +1,2 @@
-install 
+install
+``minishift start``{{execute}}
