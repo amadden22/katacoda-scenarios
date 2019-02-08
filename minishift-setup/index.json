@@ -1,0 +1,38 @@
+{
+  "pathwayTitle": "Minishift",
+  "icon": "fa-openshift",
+  "title": "Getting Started with Minishift",
+  "description": "In this scenario you will learn more about Minishift",
+  "difficulty": "beginner",
+  "time": "15 minutes",
+  "details": {
+    "intro": {
+      "text": "intro.md"
+    },
+    "steps": [
+      {
+        "title": "Step 1",
+        "text": "install-minishift.md"
+      },
+      {
+        "title": "Step 2",
+        "text": "start-minishift.md"
+      },
+      {
+        "title": "Step 3",
+        "text": "deploy-sample-app.md"
+      }
+    ],
+    "finish": {
+      "text": "outro.md"
+    }
+  },
+  "files": [],
+  "environment": {
+    "uilayout": "editor-terminal",
+    "uimessage1": "\u001b[32mYour Interactive Bash Terminal. A safe place to learn and execute commands.\u001b[m\r\n"
+  },
+  "backend": {
+    "imageid": "bash"
+  }
+}
